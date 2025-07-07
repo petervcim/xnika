@@ -1,0 +1,113 @@
+name: xnika
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  fluentui_system_icons: ^1.1.264
+  flutter_multi_formatter: ^2.13.0
+  firebase_core: ^3.9.0
+  flutter_bloc: ^8.1.6
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.3.7
+  meta: ^1.15.0
+  intl: ^0.20.1
+  flutter_slidable: ^3.1.2
+  cached_network_image: ^3.4.1
+  another_flushbar: ^1.12.30
+  email_validator: ^3.0.0
+  connectivity_plus: ^6.1.1
+  flutter_svg: ^2.0.17
+  carousel_slider: ^5.0.0
+  widget_zoom: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+
+  fonts:
+    - family: Host Grotesk
+      fonts:
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-Light.ttf
+          weight: 300
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-Regular.ttf
+          weight: 400
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-Medium.ttf
+          weight: 500
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-Bold.ttf
+          weight: 700
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Host_Grotesk/static/HostGrotesk-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+          
+    - family: Major Mono Display
+      fonts:
+        - asset: fonts/Major_Mono_Display/MajorMonoDisplay-Regular.ttf
+          weight: 400
+
+    - family: Zeroes One
+      fonts: 
+        - asset: fonts/zeroes/Zeroes One.otf
+
+    - family: Zeroes Two
+      fonts:
+        - asset: fonts/zeroes/Zeroes Two.otf
+
+    - family: Zeroes Three
+      fonts: 
+        - asset: fonts/zeroes/Zeroes Three.otf
+
+    - family: Stretch Pro
+      fonts:
+       - asset: fonts/stretch-pro/StretchPro.ttf
+
+    - family: Stretch Pro Basic
+      fonts:
+       - asset: fonts/stretch-pro/StretchPro-Basic.ttf
+
+    - family: Coolvetica
+      fonts: 
+        - asset: fonts/Coolvetica/coolvetica rg.ttf
+          weight: 500
+        - asset: fonts/Coolvetica/coolvetica rg it.ttf
+          weight: 400
+          style: italic
+
