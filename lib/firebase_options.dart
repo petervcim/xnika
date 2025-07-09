@@ -49,20 +49,4 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD8J94TyuPjmDatvhCzSjy7HhicgCWZy4w',
-    appId: '1:510928964296:android:48ce1cb1273ff06bc2b3fd',
-    messagingSenderId: '510928964296',
-    projectId: 'pette-nelda-xnika',
-    storageBucket: 'pette-nelda-xnika.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBqc_k2FIkGAdeCaYX6QDwdk4V5n5cXe_c',
-    appId: '1:510928964296:ios:7a6b69c3b1db52dcc2b3fd',
-    messagingSenderId: '510928964296',
-    projectId: 'pette-nelda-xnika',
-    storageBucket: 'pette-nelda-xnika.appspot.com',
-    iosBundleId: 'com.example.xnika',
-  );
 }
